@@ -180,7 +180,7 @@ public class manager : MonoBehaviour
         GameObject c2 = new GameObject();
         c2.transform.position = (v0.transform.position + v1.transform.position + v3.transform.position) / 3;
         Vector3 r2 = c2.transform.position - v2.transform.position;
-        v2.transform.rotation = Quaternion.LookRotation(r1);
+        v2.transform.rotation = Quaternion.LookRotation(r2);
 
         GameObject c3 = new GameObject();
         c3.transform.position = (v1.transform.position + v2.transform.position + v0.transform.position) / 3;
